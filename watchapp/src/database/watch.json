@@ -1,0 +1,99 @@
+{
+  "Products": [
+    {
+      "id": 3,
+      "pId": "TSW3",
+      "pName": "Titan Sliver",
+      "pPrice": 999,
+      "pType": "Unisex"
+    },
+    {
+      "pId": "TSW1",
+      "pName": "Titan Sliver",
+      "pType": "Unisex",
+      "pPrice": 999,
+      "id": 4
+    },
+    {
+      "id": 5,
+      "pId": "PXD89",
+      "pName": "plexx",
+      "pPrice": 1299,
+      "pType": "Male"
+    }
+  ],
+  "FeedBack": [
+    {
+      "Fname": "sujit",
+      "Email": "sujit@gmailcom",
+      "Contact": "09011760694",
+      "FeedbackInfo": "quality products",
+      "Rating": "5",
+      "id": 3
+    },
+    {
+      "Fname": "rushi",
+      "Email": "rushi@gmail.com",
+      "Contact": "1234567891",
+      "FeedbackInfo": "quality products",
+      "Rating": "5",
+      "id": 4
+    },
+    {
+      "Fname": "shekhar",
+      "Email": "shekhar@gmail.com",
+      "Contact": "9011760694",
+      "FeedbackInfo": "nice products",
+      "Rating": "5",
+      "id": 5
+    }
+  ],
+  "Contact": [
+    {
+      "id": 1,
+      "Fname": "shekhar",
+      "MobNo": 9011760694,
+      "Email": "powarshekhar77777@gmail.com",
+      "Message": "info about warrenty"
+    },
+    {
+      "Fname": "Shekhar Ramdas Powar",
+      "MobNo": "09011760694",
+      "Email": "powarshekhar77777@gmail.com",
+      "Message": "warranty",
+      "id": 2
+    },
+    {
+      "Fname": "shekhar",
+      "MobNo": "1234567891",
+      "Email": "powar@gmail.com",
+      "Message": "track",
+      "id": 3
+    },
+    {
+      "Fname": "Ramdas",
+      "MobNo": "9922374767",
+      "Email": "ramdas87@gmail.com",
+      "Message": "need to know product warranty\nhere is my product order no-0rg123t7",
+      "id": 4
+    }
+  ],
+  "registeruser": [
+    {
+      "fname": "Shekhar Ramdas Powar",
+      "email": "powarshekhar77777@gmail.com",
+      "password": "1234",
+      "repass": "1234",
+      "mobno": "09011760694",
+      "id": 1
+    },
+    {
+      "fname": "akshay",
+      "email": "akshay@gmail.com",
+      "password": "12345",
+      "repass": "12345",
+      "mobno": "07875220188",
+      "id": 2
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+.NavDropdown {
+    color: white;
+    
+}
+.Cardbg{
+    background-image: url(../Assets/Images/backgroud3.jpg);  
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 3px 4px 10px 1px black;
+    margin: auto;
+    margin-left: 80px;
+    height: 300px;
+    width: 300px;
+    max-width: 100%;
+}
+
+.Cardbg1{
+    background-image: url(../Assets/Images/men.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 3px 4px 10px 1px black;
+    margin: auto;
+    margin-left: 80px;
+    height: 300px;
+    width: 300px;
+    max-width: 100%;
+}
+
+.Cardbg2{
+    background-image: url(../Assets/Images/women.jpg);  
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 3px 4px 10px 1px black;
+    margin: auto;
+    margin-left: 80px;
+    height: 300px;
+    width: 300px;
+    max-width: 100%;
+}
+
+.homepageImg{
+    height: 300px;
+    width: 500px;
+    max-width: 100%;
+}
+
+.navHover:hover{
+ background-color: rgba(46, 46, 46, 0.808);
+ border: none;
+ border-radius: 5px;
+
+
+ 
+ 
+}
+.CardB{
+    margin: auto;
+    margin-top: 60%;
+  
+}
+
+/* contact form  */
+.conForm{
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    padding: 15px;
+    box-shadow: 3px 4px 10px 1px rgba(133, 131, 131, 0.589);
+    border: none;
+    margin-bottom: 20px;
+    backdrop-filter: blur(2px);
+    /* color: white; */
+    
+    /* background-color: aliceblue; */
+
+}
+.back{
+    background-image: url(../Assets/Images/contBack.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+MDBInput[v-model]{
+    color: beige;
+}
+
+/* Navbar css */
+.NavCss{
+    font-family: sans-serif;
+    background-color: black;
+    top: 0;
+}
+/* categories css */
+
+.imgSize{
+    background-image:url(../Assets/Images/hompage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    max-width: 100%;
+    /* width:90%; */
+    /* margin: auto; */
+    /* border: 2px solid black; */
+   
+    /* color: white;/ */
+    /* font-family: Georgia; */
+    /* border:none; */
+   
+}
+
+/* aboutus css */
+.imgAbout{
+    border:none;
+    /* border-radius: 10px; */
+    height: 300px;
+    width: 100%;
+    /* box-shadow:0px 1px 7px 0px rgba(65, 64, 64, 0.589);  */
+    /* margin-top: 10px; */
+}
+
+/* service css */
+.heading{
+    border:none;
+    background:linear-gradient(30deg, #70d6ef,  #cf8bf3, #fdb99b) ;
+    padding: 25px;
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-weight: 900;
+    border-radius: 5px;
+    animation: color 12s ease-in-out infinite;
+}
+@keyframes color{
+    0%{
+              background-position: 0 50%;
+          }
+          50%{
+              background-position: 100% 50%;
+          }
+          100%{
+              background-position: 0 50%;
+          }
+  }
+
+  /* orderDetails css */
+  @media (min-width: 1025px) {
+    .h-custom {
+    height: 100vh;
+    }
+    }
+    
+    .horizontal-timeline .items {
+    border-top: 2px solid #ddd;
+    }
+    
+    .horizontal-timeline .items .items-list {
+    position: relative;
+    /* margin-right: 0; */
+    }
+    
+    .horizontal-timeline .items .items-list:before {
+    content: "";
+    position: absolute;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background-color: #ddd;
+    top: 0;
+    margin-top: -5px;
+    }
+    
+    .horizontal-timeline .items .items-list {
+    padding-top: 15px;
+    }
+
+    /* feedbackForm css */
+    .feedback{
+        background-image: url(../Assets/Images/feedback3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        max-width: 100%;
+    }
+    .conForm1{
+        border: 2px solid black;
+        border-radius: 10px;
+        text-align: center;
+        margin: auto;
+        margin-top: 10px;
+        padding: 15px;
+        box-shadow: 3px 4px 10px 1px rgba(133, 131, 131, 0.589);
+        border: none;
+        margin-bottom: 20px;
+        backdrop-filter: blur(2px);
+        
+        /* color: white; */
+        
+        /* background-color: aliceblue; */
+    
+    }
+   
+    .imgset{
+        float: right;
+        width: 500px;
+        margin-top: 20%;
+        
+    }
