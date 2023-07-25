@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 // import NavDropdown from 'react-bootstrap/NavDropdown';
 import img from '../Assets/Images/logo.png'
 import { Link } from 'react-router-dom'
-import {withRouter} from '../utlil/withRouter'
+import { withRouter } from '../utlil/withRouter'
 
 
 
@@ -50,8 +50,8 @@ export class NavBar extends Component {
                 <div className='d-flex mx-2' role='search'>
                   {
                     istrue ?
-                      ( <button type='button'className="btn btn-warning ms-2"  onClick={this.logout} >Logout</button>
-                    )
+                      (<button type='button' className="btn btn-warning ms-2" onClick={this.logout} >Logout</button>
+                      )
                       :
                       (<><Link to='/login'><button type='button' className='btn btn-primary ms-2'>Login</button></Link>
                         <Link to='/reg'><button type='button' className='btn btn-success ms-2' >Sign Up</button></Link></>)
